@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my crud project of django</title>
+    <link rel="stylesheet" href="{% static 'enroll/css/bootstrap.css' %}">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="text-center alert alert-danger"> Function View Modelform Crud Project</h2>
+        {% block content %}
+
+        {% endblock %}
+    </div>
+    <script src="{% static 'enroll/js/jquery.js' %}"></script>
+    <script src="{% static 'enroll/js/bootstrap.js' %}"></script>
+    <script src="{% static 'enroll/js/popper.js' %}"></script>
+
+</body>
+</html>
